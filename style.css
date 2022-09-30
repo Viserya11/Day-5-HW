@@ -1,0 +1,208 @@
+body {
+  margin: 0%;
+  background-color: rgb(11, 11, 11);
+}
+
+h1 {
+  color: rgb(225, 225, 225);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(225, 225, 225);
+  background-color: #563760;
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 00.7em;
+  width: 300px;
+  height: 30px;
+  margin: 0 auto;
+  font-size: 1em;
+  padding-top: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.picofme {
+  display: block;
+  margin: 10px auto 10px auto;
+  justify-content: center;
+  background-color: transparent;
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.picofme img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transition: 0.7s ease;
+}
+
+.picofme img:hover {
+  transform: scale(1.05);
+  transition: 0.6s ease;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: black 2s linear 0.2s;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.45);
+}
+
+h2 {
+  color: rgb(225, 225, 225);
+  text-align: center;
+}
+
+.procrules {
+  display: flex;
+  width: 70%;
+  margin-left: 15%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -40px;
+}
+
+.procrules img {
+  width: 100%;
+  flex-basis: 33.333333%;
+}
+
+.proflexchild {
+  margin: 10px;
+  flex: 20%;
+}
+
+.procrulestext {
+  display: flex;
+  width: 70%;
+  margin-left: 15%;
+  flex-wrap: wrap;
+  margin-top: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.procrulestext {
+  width: 70%;
+  margin-top: 0;
+  flex-basis: 33.333333%;
+}
+
+.proflexchildtext {
+  margin: 10px;
+  background-color: rgb(222, 222, 222);
+  flex: 20%;
+  margin-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 0.9em;
+  text-align: justify;
+}
+
+.education {
+  display: block;
+  width: 70%;
+  position: relative;
+  height: 500px;
+  background-color: rgb(222, 222, 222);
+  margin-left: auto;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  z-index: 0;
+}
+
+.educationpic {
+  display: block;
+  width: 70%;
+  position: relative;
+  height: 500px;
+  background-color: rgb(222, 222, 222);
+  margin-left: 0;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  z-index: 0;
+}
+
+.education img {
+  height: 500px;
+  transition: 0.4s;
+  opacity: 1;
+}
+
+.education img:hover {
+  height: 500px;
+  transition: 0.4s;
+  opacity: 0.5;
+  transform: scale(1.1);
+}
+
+.education .textan p {
+  color: rgb(222, 222, 222);
+  bottom: 230px;
+  z-index: 20;
+  position: absolute;
+  margin-left: 80px;
+  font-weight: 600;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.education:hover .textan p {
+  opacity: 1;
+  transition: 0.3s ease;
+}
+
+h4 {
+  z-index: 10;
+  position: absolute;
+  color: hsl(285, 27%, 30%);
+  margin-left: 45%;
+  margin-top: -540px;
+  transition: 0.5s ease;
+  width: 400px;
+  font-size: 30px;
+  text-align: center;
+}
+
+h4:hover {
+  color: black;
+  transition: 0.5 eases;
+}
+
+.itemflexc {
+  display: flex;
+  width: 70%;
+  margin-left: 15%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.itemflexel {
+  width: 600px;
+  margin-top: 0;
+  flex-basis: 33.333333%;
+}
+
+.itemflexel img {
+  margin: 10px;
+  width: 70px;
+  margin-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 10px;
+}
+
+.educationtext {
+  margin-left: 300px;
+  margin-top: 80px;
+  padding: 0;
+  position: absolute;
+  z-index: 3;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+}
